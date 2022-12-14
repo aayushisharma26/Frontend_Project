@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+.filde{
+  width: 20rem;
+  padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input{
+  width: 24rem;
+  height: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.massage{
+  font-size: 20px;
+  color: green;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.massage-login{
+  color: black;
+  font-size: 10px;
+}
+.submit{
+  background-color: blue;
   color: white;
+  width: 8rem;
+  height: 3rem;
+  font-size: larger;
+  border-radius: 5px;
+  margin-left: 153px;
 }
 
-.App-link {
-  color: #61dafb;
+  .container{
+    border: 2px solid rgb(202, 196, 196);
+    margin-left: 38%;
+    margin-top: 50px;
+    border-radius: 4px;
+    width: 30rem;
+    margin-bottom: 50px;
+
+  }
+  .form{
+    max-width: 600px;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgba (0,0,0,0,1);
+    padding: 8px;
+  }
+
+  .input-text{
+    width: 136%;
+    border-width: 0 0 2px 0;
+    line-height: 20px;
+  }
+
+  .signup-hadding, .login-hedding{
+    margin-left: 130px;
+  }
+
+  @media(max-width: 768px){
+    .card {
+      border: 1px solid rgb(202, 196, 196);
+      margin-left: 5%;
+      margin-top: 78px;
+      margin-right: 20px;
+  }
+  }
+
+  .page{
+    width: auto;
+    height: 5.12rem;
+    background-color: blue;
+    display: flex;
+    padding: 10px;
+  }
+
+
+  .login, .signup{
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 22px;
+    position: relative;
+    top: 7px;
+  }
+
+
+.btn-login{
+    width: 10rem;
+    height: 3rem;
+    background-color: rgb(53, 30, 30);
+    margin-left: 60%;
+    border-radius: 8px;
+    margin-top: 7px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-signup {
+    width: 10rem;
+    height: 3rem;
+    background-color: black;
+    margin-left: 125px;
+    border-radius: 8px;
+    margin-top: 7px;
+
 }
