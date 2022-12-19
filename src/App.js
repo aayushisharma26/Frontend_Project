@@ -2,10 +2,15 @@ import './App.css'
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Login from './Component/Login';
 import Signup from './Component/Signup';
+import Api from './Component/Api'
+
+
 
 function App() {
   return (
     <div className="App">
+          <Api/>
+
       <div className='About'>
         <BrowserRouter>
           <div className='page'>
